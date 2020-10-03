@@ -1,7 +1,10 @@
 # VBA of Wall Street
 
 ## Overview of Project
-The purpose of the analysis is to evaluate stock performance over a one year period.
+VBA script refactoring
+
+### Purpose
+The purpose of this analysis is to refactor the code for a stock performance evaluation workbook.
 
 ## Results
 
