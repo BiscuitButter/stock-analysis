@@ -1,4 +1,4 @@
-# stock-analysis
+# VBA of Wall Street
 
 ## Overview of Project
 The purpose of the analysis is to evaluate stock performance over a one year period.
