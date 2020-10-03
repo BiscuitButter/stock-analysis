@@ -4,7 +4,7 @@
 
 Refactoring of a VBA script.
 
-### Purpose
+## Purpose
 
 The purpose of this analysis is to refactor the code for a stock performance evaluation workbook.
 
@@ -21,7 +21,7 @@ In the original VBA script, each ticker looped through the entire worksheet to g
 ##### Refactored Runtime 2018
 ![Refactored Runtime 2018](https://github.com/BiscuitButter/stock-analysis/blob/master/Resources/VBA_Challenge_2018.png?raw=true)
 
-#### Challenges and Difficulties Encountered
+### Challenges and Difficulties Encountered
 
 This analysis presented several challenges. The first problem I faced was with my tickerIndex. Thinking that I needed to set the tickerVolume variable to 0 after each increase in the tickerIndex, I had defined tickerVolumes(tickerIndex) = 0 in a place that caused my tickerVolumes output to always be 0. After some deep breathing, it occurred to me that tickerVolumes(tickerIndex) starts at 0 by default. Once I removed the line, I saw output in Total Daily Volume.
 My second problem was with my output on Return. I had declared my variables for tickerStartingPrices and tickerEndingPrices as Long instead of Single. Thinking that something was wrong in the Loop, I analyzed and rewrote sections of script to no avail. Once again, after some deep breathing, I read the script in its entirety and found my mistake.
