@@ -9,6 +9,6 @@ The purpose of this analysis is to refactor the code for a stock performance eva
 ## Results
 
 ##### Original Run-time 2017
-https://raw.githubusercontent.com/BiscuitButter/stock-analysis/master/Resources/VBA_Challenge_2017.png
+![Original Run-time 2017] https://raw.githubusercontent.com/BiscuitButter/stock-analysis/master/Resources/VBA_Challenge_2017.png
 
 ## Summary
